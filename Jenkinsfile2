@@ -1,0 +1,9 @@
+node {
+    echo "this is jenkins file2."
+  stage('first stage') {
+    echo "1st stage"
+  }
+  stage('second stage') {
+    echo "2nd stage"
+  }
+}
